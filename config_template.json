@@ -1,0 +1,19 @@
+{
+    "http": {
+        "apiUrl": "https://URL_HERE",
+        "enabled": true,
+        "successCodes": [ 200, 201, 202, 204 ]
+    },
+    "go-iot": {
+        "enabled": false
+    },
+    "requestTimeout": 2,
+    "maxRetries": 3,
+    "readingInterval": 300,
+    "useMillisecondTimestamps": true,
+    "useFahrenheitTemps": false,
+    "sendStatusMessages": true,
+    "sendEventCount": true,
+    "sendHopData": true,
+    "useHaystack": false
+}
